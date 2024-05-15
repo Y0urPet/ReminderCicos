@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2B7A3AEB2BF3E4F20019F312 /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B7A3AEA2BF3E4F20019F312 /* WidgetKit.framework */; };
+		2B7A3AED2BF3E4F20019F312 /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B7A3AEC2BF3E4F20019F312 /* SwiftUI.framework */; };
+		2B7A3AF02BF3E4F20019F312 /* BasicWatchWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B7A3AEF2BF3E4F20019F312 /* BasicWatchWidget.swift */; };
+		2B7A3AF22BF3E4F20019F312 /* AppIntent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B7A3AF12BF3E4F20019F312 /* AppIntent.swift */; };
+		2B7A3AF42BF3E4F30019F312 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2B7A3AF32BF3E4F30019F312 /* Assets.xcassets */; };
+		2B7A3AF82BF3E4F30019F312 /* BasicWatchWidgetExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 2B7A3AE82BF3E4F20019F312 /* BasicWatchWidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		2B7A3AFE2BF402030019F312 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B7A3AFD2BF402030019F312 /* NotificationController.swift */; };
 		2BBE37CA2BF1F4620026DDBA /* BasicWatchApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BBE37C92BF1F4620026DDBA /* BasicWatchApp.swift */; };
 		2BBE37CC2BF1F4620026DDBA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BBE37CB2BF1F4620026DDBA /* ContentView.swift */; };
 		2BBE37CE2BF1F4630026DDBA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2BBE37CD2BF1F4630026DDBA /* Assets.xcassets */; };
@@ -17,6 +24,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		2B7A3AF62BF3E4F30019F312 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2BBE37BE2BF1F4620026DDBA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2B7A3AE72BF3E4F20019F312;
+			remoteInfo = BasicWatchWidgetExtension;
+		};
 		2BBE37D72BF1F4630026DDBA /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 2BBE37BE2BF1F4620026DDBA /* Project object */;
@@ -33,7 +47,29 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		2B7A3AF92BF3E4F30019F312 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				2B7A3AF82BF3E4F30019F312 /* BasicWatchWidgetExtension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		2B7A3AE82BF3E4F20019F312 /* BasicWatchWidgetExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = BasicWatchWidgetExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B7A3AEA2BF3E4F20019F312 /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
+		2B7A3AEC2BF3E4F20019F312 /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		2B7A3AEF2BF3E4F20019F312 /* BasicWatchWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicWatchWidget.swift; sourceTree = "<group>"; };
+		2B7A3AF12BF3E4F20019F312 /* AppIntent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppIntent.swift; sourceTree = "<group>"; };
+		2B7A3AF32BF3E4F30019F312 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2B7A3AF52BF3E4F30019F312 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2B7A3AFD2BF402030019F312 /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
 		2BBE37C62BF1F4620026DDBA /* BasicWatch Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "BasicWatch Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2BBE37C92BF1F4620026DDBA /* BasicWatchApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicWatchApp.swift; sourceTree = "<group>"; };
 		2BBE37CB2BF1F4620026DDBA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -47,6 +83,15 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		2B7A3AE52BF3E4F20019F312 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B7A3AED2BF3E4F20019F312 /* SwiftUI.framework in Frameworks */,
+				2B7A3AEB2BF3E4F20019F312 /* WidgetKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		2BBE37C32BF1F4620026DDBA /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -71,12 +116,34 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2B7A3AE92BF3E4F20019F312 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2B7A3AEA2BF3E4F20019F312 /* WidgetKit.framework */,
+				2B7A3AEC2BF3E4F20019F312 /* SwiftUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2B7A3AEE2BF3E4F20019F312 /* BasicWatchWidget */ = {
+			isa = PBXGroup;
+			children = (
+				2B7A3AEF2BF3E4F20019F312 /* BasicWatchWidget.swift */,
+				2B7A3AF12BF3E4F20019F312 /* AppIntent.swift */,
+				2B7A3AF32BF3E4F30019F312 /* Assets.xcassets */,
+				2B7A3AF52BF3E4F30019F312 /* Info.plist */,
+			);
+			path = BasicWatchWidget;
+			sourceTree = "<group>";
+		};
 		2BBE37BD2BF1F4620026DDBA = {
 			isa = PBXGroup;
 			children = (
 				2BBE37C82BF1F4620026DDBA /* BasicWatch Watch App */,
 				2BBE37D92BF1F4630026DDBA /* BasicWatch Watch AppTests */,
 				2BBE37E32BF1F4630026DDBA /* BasicWatch Watch AppUITests */,
+				2B7A3AEE2BF3E4F20019F312 /* BasicWatchWidget */,
+				2B7A3AE92BF3E4F20019F312 /* Frameworks */,
 				2BBE37C72BF1F4620026DDBA /* Products */,
 			);
 			sourceTree = "<group>";
@@ -87,6 +154,7 @@
 				2BBE37C62BF1F4620026DDBA /* BasicWatch Watch App.app */,
 				2BBE37D62BF1F4630026DDBA /* BasicWatch Watch AppTests.xctest */,
 				2BBE37E02BF1F4630026DDBA /* BasicWatch Watch AppUITests.xctest */,
+				2B7A3AE82BF3E4F20019F312 /* BasicWatchWidgetExtension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -96,6 +164,7 @@
 			children = (
 				2BBE37C92BF1F4620026DDBA /* BasicWatchApp.swift */,
 				2BBE37CB2BF1F4620026DDBA /* ContentView.swift */,
+				2B7A3AFD2BF402030019F312 /* NotificationController.swift */,
 				2BBE37CD2BF1F4630026DDBA /* Assets.xcassets */,
 				2BBE37CF2BF1F4630026DDBA /* Preview Content */,
 			);
@@ -130,6 +199,23 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		2B7A3AE72BF3E4F20019F312 /* BasicWatchWidgetExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2B7A3AFC2BF3E4F30019F312 /* Build configuration list for PBXNativeTarget "BasicWatchWidgetExtension" */;
+			buildPhases = (
+				2B7A3AE42BF3E4F20019F312 /* Sources */,
+				2B7A3AE52BF3E4F20019F312 /* Frameworks */,
+				2B7A3AE62BF3E4F20019F312 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BasicWatchWidgetExtension;
+			productName = BasicWatchWidgetExtension;
+			productReference = 2B7A3AE82BF3E4F20019F312 /* BasicWatchWidgetExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
 		2BBE37C52BF1F4620026DDBA /* BasicWatch Watch App */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2BBE37EA2BF1F4630026DDBA /* Build configuration list for PBXNativeTarget "BasicWatch Watch App" */;
@@ -137,10 +223,12 @@
 				2BBE37C22BF1F4620026DDBA /* Sources */,
 				2BBE37C32BF1F4620026DDBA /* Frameworks */,
 				2BBE37C42BF1F4620026DDBA /* Resources */,
+				2B7A3AF92BF3E4F30019F312 /* Embed Foundation Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				2B7A3AF72BF3E4F30019F312 /* PBXTargetDependency */,
 			);
 			name = "BasicWatch Watch App";
 			productName = "BasicWatch Watch App";
@@ -193,6 +281,9 @@
 				LastSwiftUpdateCheck = 1530;
 				LastUpgradeCheck = 1530;
 				TargetAttributes = {
+					2B7A3AE72BF3E4F20019F312 = {
+						CreatedOnToolsVersion = 15.3;
+					};
 					2BBE37C52BF1F4620026DDBA = {
 						CreatedOnToolsVersion = 15.3;
 					};
@@ -222,11 +313,20 @@
 				2BBE37C52BF1F4620026DDBA /* BasicWatch Watch App */,
 				2BBE37D52BF1F4630026DDBA /* BasicWatch Watch AppTests */,
 				2BBE37DF2BF1F4630026DDBA /* BasicWatch Watch AppUITests */,
+				2B7A3AE72BF3E4F20019F312 /* BasicWatchWidgetExtension */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		2B7A3AE62BF3E4F20019F312 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B7A3AF42BF3E4F30019F312 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		2BBE37C42BF1F4620026DDBA /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -253,10 +353,20 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		2B7A3AE42BF3E4F20019F312 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B7A3AF02BF3E4F20019F312 /* BasicWatchWidget.swift in Sources */,
+				2B7A3AF22BF3E4F20019F312 /* AppIntent.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		2BBE37C22BF1F4620026DDBA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2B7A3AFE2BF402030019F312 /* NotificationController.swift in Sources */,
 				2BBE37CC2BF1F4620026DDBA /* ContentView.swift in Sources */,
 				2BBE37CA2BF1F4620026DDBA /* BasicWatchApp.swift in Sources */,
 			);
@@ -282,6 +392,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		2B7A3AF72BF3E4F30019F312 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2B7A3AE72BF3E4F20019F312 /* BasicWatchWidgetExtension */;
+			targetProxy = 2B7A3AF62BF3E4F30019F312 /* PBXContainerItemProxy */;
+		};
 		2BBE37D82BF1F4630026DDBA /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 2BBE37C52BF1F4620026DDBA /* BasicWatch Watch App */;
@@ -295,6 +410,67 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		2B7A3AFA2BF3E4F30019F312 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = N2K3R4X37B;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = BasicWatchWidget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = BasicWatchWidget;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = .watchkitapp.BasicWatchWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 10.4;
+			};
+			name = Debug;
+		};
+		2B7A3AFB2BF3E4F30019F312 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = N2K3R4X37B;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = BasicWatchWidget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = BasicWatchWidget;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = .watchkitapp.BasicWatchWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 10.4;
+			};
+			name = Release;
+		};
 		2BBE37E82BF1F4630026DDBA /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -412,6 +588,7 @@
 		2BBE37EB2BF1F4630026DDBA /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
@@ -442,6 +619,7 @@
 		2BBE37EC2BF1F4630026DDBA /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
@@ -557,6 +735,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		2B7A3AFC2BF3E4F30019F312 /* Build configuration list for PBXNativeTarget "BasicWatchWidgetExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B7A3AFA2BF3E4F30019F312 /* Debug */,
+				2B7A3AFB2BF3E4F30019F312 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		2BBE37C12BF1F4620026DDBA /* Build configuration list for PBXProject "BasicWatch" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

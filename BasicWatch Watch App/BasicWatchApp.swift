@@ -13,5 +13,9 @@ struct BasicWatch_Watch_AppApp: App {
         WindowGroup {
             ContentView()
         }
+//        #if os(watchOS)
+//        WKNotificationScene(controller: NotificationController.self, category: "clockIn")
+//        #endif
     }
+    
 }

@@ -21,20 +21,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		2B3691AA2BFB4E7000203F7C /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 2BBE37BE2BF1F4620026DDBA /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 2B3691972BFB4E6E00203F7C;
-			remoteInfo = ReminderCico;
-		};
-		2B3691B42BFB4E7000203F7C /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 2BBE37BE2BF1F4620026DDBA /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 2B3691972BFB4E6E00203F7C;
-			remoteInfo = ReminderCico;
-		};
 		2BBE37D72BF1F4630026DDBA /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 2BBE37BE2BF1F4620026DDBA /* Project object */;
@@ -65,9 +51,6 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		2B3691982BFB4E6E00203F7C /* ReminderCico.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ReminderCico.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		2B3691A92BFB4E7000203F7C /* ReminderCicoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ReminderCicoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		2B3691B32BFB4E7000203F7C /* ReminderCicoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ReminderCicoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2BB1A9D82BFD1B2E00BF31B8 /* BasicWatch-Watch-App-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "BasicWatch-Watch-App-Info.plist"; sourceTree = SOURCE_ROOT; };
 		2BB1AA112BFDA9A300BF31B8 /* UserShift.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserShift.swift; sourceTree = "<group>"; };
 		2BB1AA132BFDAA4F00BF31B8 /* MainMenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainMenuView.swift; sourceTree = "<group>"; };
@@ -86,27 +69,6 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		2B3691952BFB4E6E00203F7C /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		2B3691A62BFB4E7000203F7C /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		2B3691B02BFB4E7000203F7C /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		2BBE37C32BF1F4620026DDBA /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -173,9 +135,6 @@
 				2BBE37C62BF1F4620026DDBA /* BasicWatch Watch App.app */,
 				2BBE37D62BF1F4630026DDBA /* BasicWatch Watch AppTests.xctest */,
 				2BBE37E02BF1F4630026DDBA /* BasicWatch Watch AppUITests.xctest */,
-				2B3691982BFB4E6E00203F7C /* ReminderCico.app */,
-				2B3691A92BFB4E7000203F7C /* ReminderCicoTests.xctest */,
-				2B3691B32BFB4E7000203F7C /* ReminderCicoUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -222,59 +181,6 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		2B3691972BFB4E6E00203F7C /* ReminderCico */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 2B3691BB2BFB4E7000203F7C /* Build configuration list for PBXNativeTarget "ReminderCico" */;
-			buildPhases = (
-				2B3691942BFB4E6E00203F7C /* Sources */,
-				2B3691952BFB4E6E00203F7C /* Frameworks */,
-				2B3691962BFB4E6E00203F7C /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = ReminderCico;
-			productName = ReminderCico;
-			productReference = 2B3691982BFB4E6E00203F7C /* ReminderCico.app */;
-			productType = "com.apple.product-type.application";
-		};
-		2B3691A82BFB4E7000203F7C /* ReminderCicoTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 2B3691BE2BFB4E7000203F7C /* Build configuration list for PBXNativeTarget "ReminderCicoTests" */;
-			buildPhases = (
-				2B3691A52BFB4E7000203F7C /* Sources */,
-				2B3691A62BFB4E7000203F7C /* Frameworks */,
-				2B3691A72BFB4E7000203F7C /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				2B3691AB2BFB4E7000203F7C /* PBXTargetDependency */,
-			);
-			name = ReminderCicoTests;
-			productName = ReminderCicoTests;
-			productReference = 2B3691A92BFB4E7000203F7C /* ReminderCicoTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		2B3691B22BFB4E7000203F7C /* ReminderCicoUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 2B3691C12BFB4E7000203F7C /* Build configuration list for PBXNativeTarget "ReminderCicoUITests" */;
-			buildPhases = (
-				2B3691AF2BFB4E7000203F7C /* Sources */,
-				2B3691B02BFB4E7000203F7C /* Frameworks */,
-				2B3691B12BFB4E7000203F7C /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				2B3691B52BFB4E7000203F7C /* PBXTargetDependency */,
-			);
-			name = ReminderCicoUITests;
-			productName = ReminderCicoUITests;
-			productReference = 2B3691B32BFB4E7000203F7C /* ReminderCicoUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 		2BBE37C52BF1F4620026DDBA /* BasicWatch Watch App */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2BBE37EA2BF1F4630026DDBA /* Build configuration list for PBXNativeTarget "BasicWatch Watch App" */;
@@ -339,17 +245,6 @@
 				LastSwiftUpdateCheck = 1540;
 				LastUpgradeCheck = 1540;
 				TargetAttributes = {
-					2B3691972BFB4E6E00203F7C = {
-						CreatedOnToolsVersion = 15.4;
-					};
-					2B3691A82BFB4E7000203F7C = {
-						CreatedOnToolsVersion = 15.4;
-						TestTargetID = 2B3691972BFB4E6E00203F7C;
-					};
-					2B3691B22BFB4E7000203F7C = {
-						CreatedOnToolsVersion = 15.4;
-						TestTargetID = 2B3691972BFB4E6E00203F7C;
-					};
 					2BBE37C52BF1F4620026DDBA = {
 						CreatedOnToolsVersion = 15.3;
 					};
@@ -379,35 +274,11 @@
 				2BBE37C52BF1F4620026DDBA /* BasicWatch Watch App */,
 				2BBE37D52BF1F4630026DDBA /* BasicWatch Watch AppTests */,
 				2BBE37DF2BF1F4630026DDBA /* BasicWatch Watch AppUITests */,
-				2B3691972BFB4E6E00203F7C /* ReminderCico */,
-				2B3691A82BFB4E7000203F7C /* ReminderCicoTests */,
-				2B3691B22BFB4E7000203F7C /* ReminderCicoUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		2B3691962BFB4E6E00203F7C /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		2B3691A72BFB4E7000203F7C /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		2B3691B12BFB4E7000203F7C /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		2BBE37C42BF1F4620026DDBA /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -434,27 +305,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		2B3691942BFB4E6E00203F7C /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		2B3691A52BFB4E7000203F7C /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		2B3691AF2BFB4E7000203F7C /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		2BBE37C22BF1F4620026DDBA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -488,16 +338,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		2B3691AB2BFB4E7000203F7C /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 2B3691972BFB4E6E00203F7C /* ReminderCico */;
-			targetProxy = 2B3691AA2BFB4E7000203F7C /* PBXContainerItemProxy */;
-		};
-		2B3691B52BFB4E7000203F7C /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 2B3691972BFB4E6E00203F7C /* ReminderCico */;
-			targetProxy = 2B3691B42BFB4E7000203F7C /* PBXContainerItemProxy */;
-		};
 		2BBE37D82BF1F4630026DDBA /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 2BBE37C52BF1F4620026DDBA /* BasicWatch Watch App */;
@@ -511,149 +351,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		2B3691BC2BFB4E7000203F7C /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"ReminderCico/Preview Content\"";
-				DEVELOPMENT_TEAM = N2K3R4X37B;
-				ENABLE_PREVIEWS = YES;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
-				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.yourpet.ReminderCico;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		2B3691BD2BFB4E7000203F7C /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"ReminderCico/Preview Content\"";
-				DEVELOPMENT_TEAM = N2K3R4X37B;
-				ENABLE_PREVIEWS = YES;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
-				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.yourpet.ReminderCico;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		2B3691BF2BFB4E7000203F7C /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = N2K3R4X37B;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.yourpet.ReminderCicoTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ReminderCico.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ReminderCico";
-			};
-			name = Debug;
-		};
-		2B3691C02BFB4E7000203F7C /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = N2K3R4X37B;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.yourpet.ReminderCicoTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ReminderCico.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ReminderCico";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		2B3691C22BFB4E7000203F7C /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = N2K3R4X37B;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.yourpet.ReminderCicoUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = ReminderCico;
-			};
-			name = Debug;
-		};
-		2B3691C32BFB4E7000203F7C /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = N2K3R4X37B;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.yourpet.ReminderCicoUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = ReminderCico;
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
 		2BBE37E82BF1F4630026DDBA /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -928,33 +625,6 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		2B3691BB2BFB4E7000203F7C /* Build configuration list for PBXNativeTarget "ReminderCico" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				2B3691BC2BFB4E7000203F7C /* Debug */,
-				2B3691BD2BFB4E7000203F7C /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		2B3691BE2BFB4E7000203F7C /* Build configuration list for PBXNativeTarget "ReminderCicoTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				2B3691BF2BFB4E7000203F7C /* Debug */,
-				2B3691C02BFB4E7000203F7C /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		2B3691C12BFB4E7000203F7C /* Build configuration list for PBXNativeTarget "ReminderCicoUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				2B3691C22BFB4E7000203F7C /* Debug */,
-				2B3691C32BFB4E7000203F7C /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		2BBE37C12BF1F4620026DDBA /* Build configuration list for PBXProject "BasicWatch" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

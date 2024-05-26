@@ -51,7 +51,6 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		2BB1A9D82BFD1B2E00BF31B8 /* BasicWatch-Watch-App-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "BasicWatch-Watch-App-Info.plist"; sourceTree = SOURCE_ROOT; };
 		2BB1AA112BFDA9A300BF31B8 /* UserShift.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserShift.swift; sourceTree = "<group>"; };
 		2BB1AA132BFDAA4F00BF31B8 /* MainMenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainMenuView.swift; sourceTree = "<group>"; };
 		2BB1AA152BFDB99900BF31B8 /* OnBoardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoardingView.swift; sourceTree = "<group>"; };
@@ -142,7 +141,6 @@
 		2BBE37C82BF1F4620026DDBA /* BasicWatch Watch App */ = {
 			isa = PBXGroup;
 			children = (
-				2BB1A9D82BFD1B2E00BF31B8 /* BasicWatch-Watch-App-Info.plist */,
 				2BBE37C92BF1F4620026DDBA /* BasicWatchApp.swift */,
 				2BB1AA5A2C03254400BF31B8 /* view */,
 				2BB1AA5C2C03264700BF31B8 /* model */,

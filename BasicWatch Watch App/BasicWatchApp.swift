@@ -6,38 +6,26 @@
 //
 
 import SwiftUI
-import UserNotifications
+import SwiftData
 
 @main
 struct BasicWatch_Watch_AppApp: App {
-    
-    @State var appState: WKApplicationState = .inactive
-    
+    var sharedModelContainer: ModelContainer = {
+        let schema = Schema([
+            UserShift.self,
+        ])
+        let modelConfiguration = ModelConfiguration(schema: schema, isStoredInMemoryOnly: false)
+
+        do {
+            return try ModelContainer(for: schema, configurations: [modelConfiguration])
+        } catch {
+            fatalError("Could not create ModelContainer: \(error)")
+        }
+    }()
     var body: some Scene {
         WindowGroup {
             ContentView()
-                .onAppear {
-                    // Access the current app state on initial appearance
-//                    appState = WKApplication.shared().applicationState
-                }
+                .modelContainer(sharedModelContainer)
         }
-        
-//        .backgroundTask(.appRefresh("My_App_Updates")) { Sendable in
-//            let content = UNMutableNotificationContent()
-//            content.title = "Clock In!!"
-//            content.sound = .default
-//            content.categoryIdentifier = "myCategory"
-//            let category = UNNotificationCategory(identifier: "myCategory", actions: [], intentIdentifiers: [], options: [])
-//            UNUserNotificationCenter.current().setNotificationCategories([category])
-//            let trigger = UNTimeIntervalNotificationTrigger(timeInterval: 5, repeats: false)
-//            let request = UNNotificationRequest(identifier: "milk", content: content, trigger: trigger)
-//            UNUserNotificationCenter.current().add(request) { (error) in
-//                if let error = error{
-//                    print(error.localizedDescription)
-//                }else{
-//                    print("scheduled successfully")
-//                }
-//            }
-//        }
     }
 }

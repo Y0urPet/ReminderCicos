@@ -94,7 +94,6 @@ struct MainMenuView: View {
                 }
             }
             .padding()
-            .offset(y: -20)
         }
         .task {
             timeToClockIn = userShift.getClockInRemainingTime()

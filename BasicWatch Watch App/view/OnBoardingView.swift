@@ -14,7 +14,7 @@ struct OnBoardingView: View {
     
     var body: some View {
         NavigationStack {
-            VStack {
+            VStack(spacing:10) {
                 if userShift.isEmpty {
                     Text("Which shift are you?")
                     Button {
@@ -32,7 +32,7 @@ struct OnBoardingView: View {
                 } else {
                     MainMenuView(userShift: userShift.first ?? UserShift(isAfternoon: false))
                 }
-            }.navigationTitle("Welcome!")
+            }
         }
     }
 }
